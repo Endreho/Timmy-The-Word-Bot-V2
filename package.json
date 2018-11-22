@@ -1,0 +1,22 @@
+{
+  "name": "Timmy",
+  "version": "1.0.0",
+  "description": "Your local demon",
+  "main": "bot.js",
+  "repository": "git@github.com:Omlahid/NaNoWriMo-Discord-Bot.git",
+  "author": "https://github.com/Omlahid",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest tests/"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "winston": "^3.1.0",
+    "xml2js": "^0.4.19"
+  }
+}
